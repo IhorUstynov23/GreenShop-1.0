@@ -3,11 +3,21 @@ body {
   margin-top: 30px;
 }
 
-.header {
+.container {
   max-width: 1200px;
-  margin: 0 auto;
-  font-size: 0;
-  margin-bottom: 12px;
+  margin: 12px 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #46A358;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #40d45d;
 }
 
 .logo {
@@ -15,8 +25,14 @@ body {
 }
 
 .nav {
-  width: calc(100% - 280px);
+  width: calc(100% - 260px);
   text-align: center;
+}
+
+.active {
+  font-weight: bold;
+  text-decoration:underline;
+  text-decoration-color: green;
 }
 
 .nav,
@@ -24,7 +40,6 @@ body {
 .login {
   display: inline-block;
   vertical-align: middle;
-  font-size: 16px;
 }
 
 .list {
@@ -33,10 +48,12 @@ body {
   padding: 0;
   margin: 0;
 }
-.list a{
+
+.list a {
+  color: #3D3D3D;
   text-decoration: none;
-  color:#3D3D3D;
 }
+
 .list li {
   display: inline-block;
   margin: 0 15px;
@@ -44,40 +61,40 @@ body {
 }
 
 .list a:hover {
-color: #46A358;
-font-weight: 800;
-font-size: 20px;
+  color: #46A358;
+
 }
 
 .login {
   display: inline-block;
-  width: 100px;
-  height: 35px;
+  width: 40px;
+  height: 20px;
   background-color: #46A358;
   color: #fff;
-  border-radius: 16px;
+  border-radius: 6px;
   text-align: center;
-  padding: 12px 0 0 0;
+  padding: 8px 30px;
   text-decoration: none;
 
 }
-.login:hover{
-  background-color: #40d45d;
+
+.main-section {
+  background-color: #f5f5f5;
 }
 
-.btn-main {
-  width: 140px;
-  height: 40px;
+.main {
+  display: inline-block;
+  width: 88px;
+  height: 20px;
+  padding: 10px 26px 10px 26px;
   border-radius: 6px;
-  color: #fff;
   background-color: #46A358;
   text-align: center;
-  padding: 16px 11px 17px 9px ;
   font-weight: 700;
   text-decoration: none;
 }
 
-.btn-main:hover{
+.btn-main:hover {
   background-color: rgb(4, 252, 169);
   color: #000000;
 }
@@ -86,15 +103,13 @@ font-size: 20px;
 .img {
   display: inline-block;
   vertical-align: middle;
-margin-right: 82px;
+  margin-right: 82px;
 }
 
-.main-section {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
 .welcome {
+  margin: 0;
+  width: 200px;
   font-size: 20px;
   color: #3D3D3D;
 }
@@ -112,15 +127,12 @@ margin-right: 82px;
   margin-bottom: 55px;
 }
 
-.Mark {
-  font-size: 70px;
-  font-weight: 900;
+.mark {
   color: #46A358;
 }
 
 
-
-button {
+.registr-btn {
   width: 300px;
   height: 45px;
   cursor: pointer;
@@ -129,6 +141,19 @@ button {
   margin-top: 41px;
   border-color: #46A358;
   border-style: none;
+  padding: 0;
+}
+
+.login-btn {
+  width: 300px;
+  height: 45px;
+  cursor: pointer;
+  background-color: #46A358;
+  border-radius: 5px;
+  margin-top: 41px;
+  border-color: #46A358;
+  border-style: none;
+  padding: 0;
 }
 
 form {
@@ -152,27 +177,31 @@ input[placeholder] {
   justify-content: space-around;
 }
 
-p {
- text-align: center;
+.login-p {
+  text-align: center;
   margin-top: 40px;
 }
 
-button>span {
-
-  color: #fff;
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 700;
-  letter-spacing: 0%;
+.registr-p {
+  text-align: center;
+  margin-top: 40px;
 }
 
-div>span {
- display: inline-block;
+
+.login-span {
+  display: inline-block;
   font-size: 20px;
   font-weight: 500;
   line-height: 16px;
   color: #46A358;
+}
 
+.registr-span {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #46A358;
 }
 
 .choice {
@@ -183,5 +212,5 @@ div>span {
 
 .sing_with {
   display: inline-block;
- text-align: center;
+  text-align: center;
 }

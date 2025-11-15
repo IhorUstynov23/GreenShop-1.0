@@ -3,13 +3,122 @@ body {
   margin-top: 30px;
 }
 
-a {
-  text-decoration: none;
-  color: #000000;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 0;
+  margin-bottom: 12px;
 }
+
+.logo {
+  width: 150px;
+}
+
+.nav {
+  width: calc(100% - 280px);
+  text-align: center;
+}
+
+.nav,
+.logo,
+.login {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.list {
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list a{
+  text-decoration: none;
+  color:#3D3D3D;
+}
+.list li {
+  display: inline-block;
+  margin: 0 15px;
+
+}
+
+.list a:hover {
+color: #46A358;
+font-weight: 800;
+font-size: 20px;
+}
+
+.login {
+  display: inline-block;
+  width: 100px;
+  height: 35px;
+  background-color: #46A358;
+  color: #fff;
+  border-radius: 16px;
+  text-align: center;
+  padding: 12px 0 0 0;
+  text-decoration: none;
+
+}
+.login:hover{
+  background-color: #40d45d;
+}
+
+.btn-main {
+  width: 140px;
+  height: 40px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #46A358;
+  text-align: center;
+  padding: 16px 11px 17px 9px ;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.btn-main:hover{
+  background-color: rgb(4, 252, 169);
+  color: #000000;
+}
+
+.into,
+.img {
+  display: inline-block;
+  vertical-align: middle;
+margin-right: 82px;
+}
+
+.main-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.welcome {
+  font-size: 20px;
+  color: #3D3D3D;
+}
+
+.head-text {
+  font-size: 70px;
+  font-weight: 900;
+
+}
+
+.main-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+  margin-bottom: 55px;
+}
+
+.Mark {
+  font-size: 70px;
+  font-weight: 900;
+  color: #46A358;
+}
+
+
 
 button {
   width: 300px;
@@ -38,19 +147,18 @@ input[placeholder] {
   padding-left: 10px;
 }
 
-div {
+.form {
   display: flex;
   justify-content: space-around;
 }
 
 p {
-  display: flex;
-  justify-content: center;
+ text-align: center;
   margin-top: 40px;
 }
 
 button>span {
-  font-family: sans-serif;
+
   color: #fff;
   font-size: 16px;
   line-height: 16px;
@@ -59,8 +167,7 @@ button>span {
 }
 
 div>span {
-  display: flex;
-  justify-content: center;
+ display: inline-block;
   font-size: 20px;
   font-weight: 500;
   line-height: 16px;
@@ -70,13 +177,11 @@ div>span {
 
 .choice {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 
 }
 
 .sing_with {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-
+  display: inline-block;
+ text-align: center;
 }

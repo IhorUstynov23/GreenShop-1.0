@@ -379,6 +379,7 @@ input[placeholder] {
   display: inline-block;
   vertical-align: middle;
   list-style: none;
+  padding: 0;
 }
 
 .page_list li {
@@ -410,8 +411,10 @@ input[placeholder] {
   font-size: 18px;
 }
 .sales_picture{
-  background: linear-gradient(180deg, rgba(70, 163, 88, 0.1) 0%, rgba(70, 163, 88, 0.03) 100%);
-
+  max-width: 310px;
+}
+.sales_link{
+  text-decoration: none;
 }
 .super_sales{
   color: #46A358;

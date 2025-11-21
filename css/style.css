@@ -132,6 +132,7 @@ body {
 .into {
   padding-left: 40px;
   padding-bottom: 85px;
+  padding-top: 68px;
 }
 
 .main {
@@ -159,7 +160,7 @@ body {
   font-size: 14px;
   color: #3D3D3D;
   text-transform: uppercase;
-  padding-top: 68px;
+  
 }
 
 .head-text {
@@ -273,11 +274,13 @@ input[placeholder] {
   width: 310px;
   float: left;
 }
-
+.product_container {
+  float: right;
+  width: 840px;
+}
 .filter_menu {
   width: 840px;
   float: right;
-
 }
 
 .categories_list {
@@ -306,7 +309,7 @@ input[placeholder] {
   font-weight: 700;
   pointer-events: none;
 }
-
+ 
 .filter_list .active {
   text-decoration: underline;
   color: #46A358;
@@ -317,7 +320,7 @@ input[placeholder] {
 .filter_list {
   float: left;
   list-style: none;
-  padding: 0;
+padding: 0;
 }
 
 .filter_list li {
@@ -340,7 +343,6 @@ input[placeholder] {
 
 
 .select_box {
-  padding: 0;
   margin-top: 16px;
   float: right;
 }

@@ -58,6 +58,7 @@ body {
 
 .header {
   display: flex;
+  align-items: center;
   padding: 0;
 }
 
@@ -91,10 +92,6 @@ body {
   pointer-events: none;
 }
 
-.login_container {
-  display: flex;
-}
-
 .list {
   display: flex;
   gap: 50px;
@@ -112,7 +109,7 @@ body {
 
 }
 
-.login {  
+.login {
   display: flex;
   align-items: center;
   font-size: 16px;
@@ -126,8 +123,8 @@ body {
 /* Main style */
 .main-section {
   display: flex;
+  align-items: center;
   background-color: #f5f5f5;
-
 }
 
 .into {
@@ -160,13 +157,15 @@ body {
   font-size: 70px;
   font-weight: 900;
   text-transform: uppercase;
+  margin-top: 7px;
+  margin-bottom: 5px;
 }
 
 .main-paragraph {
   font-size: 16px;
   font-weight: 400;
   color: #727272;
-  margin-bottom: 55px;
+  margin-bottom: 44px;
 }
 
 .mark {
@@ -349,13 +348,18 @@ input[placeholder] {
 .product-holder {
   display: flex;
   flex-wrap: wrap;
+
   width: 840px;
   gap: 33px;
 }
 
 .product {
-  background-color: #FBFBFB;
+
   width: 250px;
+}
+
+.product img {
+  background-color: #FBFBFB;
 }
 
 .protuct_item_text {
@@ -380,9 +384,9 @@ input[placeholder] {
 .page_list {
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
+  gap: 5px;
   list-style: none;
-   
+
 }
 
 .page_list li {
@@ -393,7 +397,9 @@ input[placeholder] {
 }
 
 .page_list a {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   color: #3D3D3D;
 }
@@ -404,11 +410,11 @@ input[placeholder] {
 }
 
 .page_item {
-  
+
   width: 35px;
+  height: 35px;
   border: 1px solid #E5E5E5;
   border-radius: 4px;
-
 }
 
 .page_item.active {
@@ -433,7 +439,7 @@ input[placeholder] {
 .third_section {
   display: flex;
   gap: 20px;
-  padding-top: 50px;
+  padding-top:50px;
 }
 
 .plants_blog {
@@ -442,12 +448,15 @@ input[placeholder] {
   background: #FBFBFB;
   padding: 37px 35px 47px 0px;
 }
-.blog_picture{
+
+.blog_picture {
   width: 35%;
 }
-.blog_picture img{
-  margin-top: -30px;
+
+.blog_picture img {
+  margin-top: -102px;
 }
+
 .blog_info {
   text-align: right;
   flex-grow: 1;
@@ -489,6 +498,10 @@ input[placeholder] {
   width: 268px;
 }
 
+.posts_card img {
+  width: 287px;
+}
+
 .card_text {
   width: 242px;
   padding: 0px 9px 11px 12px;
@@ -516,6 +529,7 @@ input[placeholder] {
 }
 
 .read_more::after {
+  margin-left: 4px;
   content: "\2192";
 }
 
@@ -541,13 +555,15 @@ input[placeholder] {
 .read_more:hover {
   color: #46A358;
 }
-.our_blog_container{
+
+.our_blog_container {
   display: flex;
   align-content: space-around;
   flex-wrap: wrap;
   gap: 30px;
 }
-.find_more_container{
+
+.find_more_container {
   display: flex;
   justify-content: flex-end;
 }

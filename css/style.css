@@ -346,23 +346,61 @@ input[placeholder] {
 }
 
 .product-holder {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
-
   width: 840px;
   gap: 33px;
 }
+.list_icon{
+  display: flex;
+  list-style: none;
+  gap: 26px;
+  position: absolute;
+  top:230px;
+  left:75px;
+  bottom: 10px;
+  padding: 5px;
+  display: none;
+}
+.product:hover ul{
+  display: flex;
+}
+.procent_discount{
+  position:absolute;
+  font-weight:500;
+  font-size: 16px;
+  color: #fff;
+  background-color: #46A358;
+  padding: 5px;
+  top:0;
+  left: 0;
+}
 
 .product {
-
+position: relative;
   width: 250px;
 }
 
+.product::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #46A358;
+  display: none;
+}
+.product:hover::after{
+display: block;
+}
 .product img {
   background-color: #FBFBFB;
 }
 
 .protuct_item_text {
+  padding-top: 10px;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;

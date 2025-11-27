@@ -362,15 +362,16 @@ input[placeholder] {
   list-style: none;
   gap: 26px;
   position: absolute;
-   top:235px;
-  left: 25px;
+  top: 230px;
+  left: 70px;
   display: none;
-
+  padding: 0;
+  margin: 0 auto;
 }
 
 .list_icon li img {
-  background-color: #FBFBFB;
-  border-radius: 6px;
+  background-color: #ffffff;
+  border-radius: 4px;
 }
 
 .product:hover ul {

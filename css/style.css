@@ -346,43 +346,49 @@ input[placeholder] {
 }
 
 .product-holder {
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   width: 840px;
   gap: 33px;
 }
-.list_icon{
+
+.product {
+  position: relative;
+  width: 258px;
+}
+
+.list_icon {
   display: flex;
   list-style: none;
   gap: 26px;
   position: absolute;
-  top:230px;
-  left:75px;
-  bottom: 10px;
-  padding: 5px;
+   top:235px;
+  left: 25px;
   display: none;
+
 }
-.product:hover ul{
+
+.list_icon li img {
+  background-color: #FBFBFB;
+  border-radius: 6px;
+}
+
+.product:hover ul {
   display: flex;
 }
-.procent_discount{
-  position:absolute;
-  font-weight:500;
+
+.procent_discount {
+  position: absolute;
+  font-weight: 500;
   font-size: 16px;
   color: #fff;
   background-color: #46A358;
   padding: 5px;
-  top:0;
+  top: 14px;
   left: 0;
 }
 
-.product {
-position: relative;
-  width: 250px;
-}
-
-.product::after{
+.product::after {
   content: "";
   position: absolute;
   top: 0;
@@ -392,11 +398,13 @@ position: relative;
   background-color: #46A358;
   display: none;
 }
-.product:hover::after{
-display: block;
+
+.product:hover::after {
+  display: block;
 }
+
 .product img {
-  background-color: #FBFBFB;
+  background: #fbfbfb;
 }
 
 .protuct_item_text {
@@ -416,7 +424,6 @@ display: block;
 .product_item_price::before {
   content: "$";
 }
-
 
 
 .page_list {
@@ -477,7 +484,7 @@ display: block;
 .third_section {
   display: flex;
   gap: 20px;
-  padding-top:50px;
+  padding-top: 50px;
 }
 
 .plants_blog {

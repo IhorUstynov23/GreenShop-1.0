@@ -360,18 +360,28 @@ input[placeholder] {
 .list_icon {
   display: flex;
   list-style: none;
-  gap: 26px;
+  gap: 10px;
   position: absolute;
   top: 230px;
-  left: 70px;
+  left: 60px;
   display: none;
   padding: 0;
   margin: 0 auto;
 }
 
-.list_icon li img {
+.list_icon li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 6px;
   background-color: #ffffff;
-  border-radius: 4px;
+}
+
+.list_icon li img {
+  width: 20px;
+
 }
 
 .product:hover ul {

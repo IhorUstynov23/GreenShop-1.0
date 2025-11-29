@@ -60,6 +60,7 @@ body {
   display: flex;
   align-items: center;
   padding: 0;
+  border-bottom: 0.3px solid #46A35880;
 }
 
 .btn {
@@ -81,7 +82,8 @@ body {
 .nav {
   display: flex;
   justify-content: center;
-  width: calc(100% - 260px);
+  /* width: calc(100% - 260px); */
+  flex-grow: 1;
 
 }
 
@@ -90,6 +92,12 @@ body {
   text-decoration: underline;
   text-decoration-color: green;
   pointer-events: none;
+
+}
+
+.list>li:hover {
+  text-decoration: underline;
+  text-decoration-color: green;
 }
 
 .list {
@@ -98,15 +106,98 @@ body {
   list-style: none;
 }
 
+.list_item {
+  position: relative;
+}
+
+.first_menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  width: 190px;
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s linear;
+  padding-top: 16px;
+}
+
+.first_menu li {
+  background-color: #EDF6EE;
+}
+
+.first_menu a {
+  display: block;
+  padding: 5px;
+}
+
+.first_menu>li:hover .second_menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.first_menu li:has(.second_menu)::after {
+  display: inline-block;
+  content: "\203A";
+  font-size: 25px;
+  line-height: 1;
+  position: absolute;
+  right: 13px;
+  top: 78%;
+}
+
+.first_menu li:has(.second_menu):hover::after {
+  content: "\2039";
+  color: #fff;
+  font-size: 25px;
+  line-height: 1;
+  position: absolute;
+  right: 13px;
+  top: 78%;
+
+}
+
+.item_menu {
+  position: relative;
+}
+
+
+.list_item:hover .first_menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.second_menu {
+  position: absolute;
+  list-style: none;
+  width: 180px;
+  left: 100%;
+  top: 0;
+  padding: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s linear;
+  padding-top: 16px;
+}
+
+.second_menu li {
+  background-color: #EDF6EE;
+}
+
 .list a {
   color: #3D3D3D;
   text-decoration: none;
 }
 
-
 .list a:hover {
   color: #46A358;
+}
 
+.bg_item>a:hover {
+  font-weight: 700;
+  background-color: #1A712A;
+  color: #fff;
 }
 
 .login {

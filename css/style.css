@@ -121,7 +121,7 @@ body {
   visibility: hidden;
   transition: opacity 0.5s linear;
   padding-top: 16px;
-  padding-right: 2px;
+  padding-right: 1px;
 }
 
 .first_menu li {

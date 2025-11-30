@@ -121,6 +121,7 @@ body {
   visibility: hidden;
   transition: opacity 0.5s linear;
   padding-top: 16px;
+  padding-right: 2px;
 }
 
 .first_menu li {
@@ -155,7 +156,6 @@ body {
   position: absolute;
   right: 13px;
   top: 78%;
-
 }
 
 .item_menu {
@@ -185,6 +185,12 @@ body {
   background-color: #EDF6EE;
 }
 
+.second_menu li:hover>a {
+  background-color: #1A712A;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
 .list a {
   color: #3D3D3D;
   text-decoration: none;
@@ -194,7 +200,7 @@ body {
   color: #46A358;
 }
 
-.bg_item>a:hover {
+.bg_item:hover>a {
   font-weight: 700;
   background-color: #1A712A;
   color: #fff;

@@ -720,3 +720,143 @@ input[placeholder] {
   display: flex;
   justify-content: flex-end;
 }
+
+/* footer */
+.footer_box {
+  display: flex;
+  background: #FBFBFB;
+}
+
+.footer_intro {
+  display: flex;
+  flex-grow: 1;
+  width: 67%;
+}
+
+.footer_list {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+.footer_text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #727272;
+}
+
+.footer_header {
+  font-size: 17px;
+  color: #3D3D3D;
+}
+
+.footer_list_item {
+  padding-right: 65px;
+}
+
+.footer_form_box {
+  width: 33%;
+}
+
+.footer_form {
+  display: flex;
+  gap: 18px;
+  margin-top: 38px;
+  margin-bottom: 24px;
+
+}
+
+.input_btn_box {
+  display: flex;
+  width: 100%;
+}
+
+.input_btn_box input {
+  background-color: #FFFFFF;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
+  border: none;
+}
+
+.footer_form label {
+  font-weight: 700;
+  font-size: 18px;
+  color: #3D3D3D;
+  line-height: 16px;
+}
+
+.newsletter {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  width: 85px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding: 12px 25px 12px 25px;
+  border: #46A358;
+  cursor: pointer;
+}
+
+.footer_gradient {
+  display: flex;
+  flex-wrap: wrap;
+  height: 88px;
+  justify-content: space-evenly;
+  background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
+  align-items: center;
+}
+.footer_gradient a{
+  display: flex;
+  text-decoration: none;
+  color: #3D3D3D;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer_gradient address{
+  display: flex;
+font-style: normal;
+align-items: center;
+font-size: 14px;
+font-weight: 400;
+}
+.footer_info{
+  display: flex;
+  justify-content: space-around;
+  background: #FBFBFB;
+  border-bottom: 1px solid #46A35833;
+}
+.footer_menu{
+  list-style: none;
+
+}
+.footer_menu_header{
+  font-size: 18px;
+  color: #3D3D3D;
+  padding-bottom: 8px;
+  margin: 0;
+}
+.footer_menu a{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: #3D3D3D;
+  line-height: 30px;
+}
+.footer_menu a:hover{
+  text-decoration: underline;
+  color: #46A358;
+}
+.footer_social{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 49px;
+}
+.copyrights{
+  font-size: 14px;
+  font-weight: 400;
+  color: #3D3D3D;
+  text-align: center;
+}

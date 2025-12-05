@@ -260,7 +260,6 @@ body {
 
 .main-paragraph {
   font-size: 16px;
-  font-weight: 400;
   color: #727272;
   margin-bottom: 44px;
 }
@@ -390,7 +389,6 @@ input[placeholder] {
   text-decoration: none;
   cursor: pointer;
   font-size: 15px;
-  font-weight: 400;
   line-height: 40px;
 }
 
@@ -427,7 +425,6 @@ input[placeholder] {
   text-decoration: none;
   cursor: pointer;
   font-size: 15px;
-  font-weight: 400;
 }
 
 .filter_list a:hover {
@@ -518,7 +515,6 @@ input[placeholder] {
 .protuct_item_text {
   padding-top: 10px;
   font-size: 16px;
-  font-weight: 400;
   line-height: 16px;
 }
 
@@ -626,7 +622,6 @@ input[placeholder] {
 
 .blog_info_text {
   flex-direction: row-reverse;
-  font-weight: 400;
   font-size: 14px;
   color: #727272;
   line-height: 24px;
@@ -671,7 +666,6 @@ input[placeholder] {
 }
 
 .our_blog_text {
-  font-weight: 400;
   font-size: 14px;
   color: #727272;
 }
@@ -699,7 +693,6 @@ input[placeholder] {
 }
 
 .our_card_text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 22px;
   color: #727272;
@@ -725,7 +718,6 @@ input[placeholder] {
 .footer_box {
   display: flex;
   background: #FBFBFB;
-  padding-left: 25px;
   margin-bottom: 0;
 }
 
@@ -739,7 +731,6 @@ input[placeholder] {
 
 .footer_text {
   font-size: 14px;
-  font-weight: 400;
   color: #727272;
 }
 
@@ -748,43 +739,30 @@ input[placeholder] {
   color: #3D3D3D;
 }
 
-
-.footer_list_item1 {
-  border-right: 1px solid rgba(70, 163, 88, 0.1);
+.footer_plant {
   padding-top: 103px;
   padding-right: 30px;
+  margin-right: 30px;
+  background-size: auto 93px;
+  background-repeat: no-repeat;
+}
+
+.item1 {
+  border-right: 1px solid rgba(70, 163, 88, 0.1);
   background-image: url(../img/footer_plant1.svg);
-  background-repeat: no-repeat;
-  background-size: auto 93px;
-  margin-right: 30px;
 }
-
-.footer_list_item2 {
+.item2 {
   border-right: 1px solid rgba(70, 163, 88, 0.1);
-  padding-top: 103px;
-  padding-right: 30px;
   background-image: url(../img/footer_plant2.svg);
-  background-repeat: no-repeat;
-  background-size: auto 93px;
-  margin-right: 30px;
-}
 
-.footer_list_item3 {
-  padding-top: 103px;
-  padding-right: 30px;
+}
+.item3 {
   background-image: url(../img/footer_plant3.svg);
-  background-repeat: no-repeat;
-  background-size: auto 93px;
-}
-
-.footer_form_box {
-  max-width: 345px;
-  margin-left: 35px;
-  margin-right: 25px;
 }
 
 .footer_form {
   display: flex;
+  width: 345px;
   gap: 18px;
   margin-top: 38px;
   margin-bottom: 24px;
@@ -803,6 +781,7 @@ input[placeholder] {
   border-top-right-radius: 1px;
   border-bottom-right-radius: 1px;
   border: none;
+  padding: 12px 54px 12px 11px;
 }
 
 .footer_form label {
@@ -842,7 +821,6 @@ input[placeholder] {
   text-decoration: none;
   color: #3D3D3D;
   font-size: 14px;
-  font-weight: 400;
 
 }
 
@@ -861,46 +839,49 @@ input[placeholder] {
   font-style: normal;
   align-items: center;
   font-size: 14px;
-  font-weight: 400;
   color: #3D3D3D;
 }
 
 .footer_container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background: #FBFBFB;
   border-bottom: 1px solid #46A35833;
 }
 
 .footer_info {
+  width: 821px;
   display: flex;
-  justify-content: space-around;
-  width: 976px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer_menu {
+  margin-left: 25px;
+  margin-bottom: 29px;
+}
+
+.footer_menu_list {
   list-style: none;
-  margin-right: 160px;
-  margin-top: 8px;
+  padding: 0;
+  margin: 0;
 }
 
 .footer_menu_header {
   font-size: 18px;
   color: #3D3D3D;
   margin-top: 33px;
-  margin-left: 39px;
-  margin-bottom: 0;
+
 }
 
-.footer_menu a {
+.footer_menu_list a {
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   color: #3D3D3D;
   line-height: 30px;
 }
 
-.footer_menu a:hover {
+.footer_menu_list a:hover {
   text-decoration: underline;
   color: #46A358;
 }
@@ -911,11 +892,12 @@ input[placeholder] {
   flex-direction: column;
   justify-content: end;
   padding-bottom: 49px;
+  margin-left: 173px;
+  margin-right: 155px;
 }
 
 .copyrights {
   font-size: 14px;
-  font-weight: 400;
   color: #3D3D3D;
   text-align: center;
 }

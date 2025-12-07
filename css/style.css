@@ -121,7 +121,6 @@ body {
   visibility: hidden;
   transition: opacity 0.5s linear;
   padding-top: 16px;
-  padding-right: 1px;
 }
 
 .first_menu li {
@@ -162,7 +161,6 @@ body {
   position: relative;
 }
 
-
 .list_item:hover .first_menu {
   opacity: 1;
   visibility: visible;
@@ -179,6 +177,7 @@ body {
   visibility: hidden;
   transition: opacity 0.5s linear;
   padding-top: 16px;
+  padding-left: 1px;
 }
 
 .second_menu li {

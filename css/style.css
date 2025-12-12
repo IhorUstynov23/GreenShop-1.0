@@ -1170,6 +1170,9 @@ input[placeholder] {
   gap: 20px;
 
 }
+.preloader.loaded {
+  display: none;
+}
 
 .preloader:before,
 .preloader:after {

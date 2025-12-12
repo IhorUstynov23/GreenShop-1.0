@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <!-- <div class="preloader"></div> -->
+  <div class="preloader"></div>
   <main>
     <div class="choice">
       <span class="login-span">Login</span>
@@ -35,6 +35,12 @@
         <span>Continue with Facebook</span></a>
     </div>
   </main>
+  <script>
+    setTimeout(() => {
+      const el = document.querySelector(".preloader");
+      el.classList.toggle("loaded");
+    }, 5000);
+  </script>
 </body>
 
 </html>

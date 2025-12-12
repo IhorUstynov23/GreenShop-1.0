@@ -11,6 +11,7 @@
 
 <body>
   <main>
+      <div class="preloader"></div>
     <div class="choice">
       <a href="login.html">Login</a>
       <span class="registr-span">Registration</span>
@@ -34,6 +35,12 @@
         <span>Continue with Facebook</span></a>
     </div>
   </main>
+  <script>
+    setTimeout(() => {
+      const el = document.querySelector(".preloader");
+      el.classList.toggle("loaded");
+    }, 5000);
+  </script>
 </body>
 
 </html>

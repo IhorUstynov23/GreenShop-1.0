@@ -10,22 +10,23 @@
 </head>
 
 <body>
+  <div class="preloader"></div>
   <main>
     <div class="choice">
       <span class="login-span">Login</span>
       <a href="registration.html">Registration</a>
     </div>
     <div>
-      <p class="login-p">Enter your email and password to sing in</p>
+      <p class="registr-p">Enter your email and password to sing in</p>
     </div>
     <div class="form">
       <form action="#">
         <input type="email" placeholder="Enter your email">
         <input type="password" placeholder="Enter your password">
-        <button class="btn login-btn" type="submit"><span>Sing in</span> </button>
+        <button class="btn registr-btn" type="submit"><span>Sing in</span> </button>
       </form>
     </div>
-    <p class="login-p">Sing in with</p>
+    <p class="registr-p">Sing in with</p>
     <div class="sing_with">
       <a href="https://www.google.com/?hl=uk"><img src="img/google-icon.svg" alt="google" width="30">
         <span>Continue with Google</span>
@@ -34,6 +35,12 @@
         <span>Continue with Facebook</span></a>
     </div>
   </main>
+  <script>
+    setTimeout(() => {
+      const el = document.querySelector(".preloader");
+      el.classList.toggle("loaded");
+    }, 5000);
+  </script>
 </body>
 
 </html>

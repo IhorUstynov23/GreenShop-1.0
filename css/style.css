@@ -862,6 +862,7 @@ input[placeholder] {
 /* Our blog posts */
 
 .posts_card {
+  width: 100%;
   background: #FBFBFB;
   flex-basis: calc(25% - 15px);
 }
@@ -1452,7 +1453,6 @@ input[placeholder] {
   }
 
   .read_more {
-    padding-left: 18px;
     font-size: 14px;
   }
 
@@ -1479,6 +1479,7 @@ input[placeholder] {
   /* footer */
   .footer_form {
     padding-left: 25px;
+    padding-right: 25px;
   }
 
   .footer_list {
@@ -1507,10 +1508,6 @@ input[placeholder] {
 
   .footer_text {
     font-size: 14px;
-  }
-
-  .footer_gradient address {
-    font-size: 12px;
   }
 
   .footer_gradient a {
@@ -1651,8 +1648,14 @@ input[placeholder] {
     font-size: 14px;
   }
 
+  .footer_menu {
+    margin-right: 10px;
+  }
+
   .footer_menu_list a {
     font-size: 11px;
+    margin-top: 25px;
+    line-height: 0;
   }
 
   .footer_social h3 {
